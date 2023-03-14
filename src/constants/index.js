@@ -33,6 +33,9 @@ import {
     c_gmail,
     c_ins,
     c_linkedin,
+    proj_bart,
+    proj_gitlet,
+    proj_maze,
   } from "../assets";
   
   export const navLinks = [
@@ -223,67 +226,83 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Bart MGS",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "The primary aim of this project is to develop a system that can accurately transform real-world geographic coordinates (latitude and longitude) into the (x, y) coordinates of BART's rail track schematic diagram. This will enable us to precisely pinpoint the location of BART trains on the map and track their movements in real-time. By achieving this goal, we hope to enhance the efficiency and safety of BART operations, as well as provide more accurate and reliable information to engineers about physical infrastructure and equipment such as stations, signals and locomotives.",
       tags: [
         {
-          name: "react",
+          name: "Python",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "MySQL",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Web",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Git",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: proj_bart,
+      source_code_link: "https://github.com/YingluDeng/Bart_MGS",
     },
     {
-      name: "Job IT",
+      name: "Version Control Gitlet",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "It is a Java-based version-control system that supports file backup and restoration, history viewing, branch maintenance, and merge changes between branches. We developed Gitlet using JUnit and custom test cases to ensure optimal performance and behavior. The command-line interface enables users to interact with the system via various commands, and informative error messages are displayed for invalid inputs. We hosted the Gitlet project on GitHub, used IntelliJ as our IDE, and Bash for automation.",
       tags: [
         {
-          name: "react",
+          name: "Java",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Git",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Junit",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "IntelliJ",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Bash",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: proj_gitlet,
+      source_code_link: "https://github.com/YingluDeng/Gitlet_proj",
     },
     {
-      name: "Trip Guide",
+      name: "Maze Game",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "This project is a maze game engine that generates explorable worlds. We will use advanced algorithms to create random mazes and add interactive features, such as a Level Mode, Count Down Timer, and Highest Score leaderboard. Additionally, we will include a Mini Game system that lets players interact with entities in the maze and trigger new interfaces, similar to Pokémon. This system adds excitement and unpredictability to the gameplay, encouraging players to explore every corner of the maze.",
       tags: [
         {
-          name: "nextjs",
+          name: "Java",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "OOP",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "UI/UX",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "IntelliJ",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: proj_maze,
+      source_code_link: "https://github.com/YingluDeng/Maze-Game-Project",
     },
   ];
 

@@ -43,7 +43,14 @@ import c_linkedin from "./contact/c_linkedin.svg";
 import c_ins from "./contact/c_ins.svg";
 import c_gmail from "./contact/c_gmail.svg";
 
+import proj_bart from "./project_pic/proj_bart.png";
+import proj_gitlet from "./project_pic/proj_gitlet.png";
+import proj_maze from "./project_pic/proj_maze.png";
+
 export {
+  proj_bart,
+  proj_gitlet,
+  proj_maze,
   c_github,
   c_facebook,
   c_linkedin,
