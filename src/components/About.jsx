@@ -6,7 +6,7 @@ import { styles } from "../styles";
 // import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
-
+import { me } from "../assets";
 // import { abouts } from "../constants";
 
 // const ServiceCard = ({ index, title, icon }) => (
@@ -39,16 +39,44 @@ import { fadeIn, textVariant } from "../utils/motion";
 
 const About = () => {
   return (
-    <>
-    </>
+    <motion.div variants={textVariant()}>
+      <h2 className={`${styles.sectionHeadText} text-center `}>About</h2>
+      <div className='flex w-full h-full ml-3 mt-12'>
+        <img
+          src={me}
+          alt={'me_pic'}  
+          className='w-[30%] h-[30%] object-contain rounded-3xl'
+        />
+        <div className="ml-10 text-[20px] max-w-3xl leading-[35px]">
+          I'm a skilled software developer with experience in TypeScript and
+          JavaScript, and expertise in frameworks like React, Node.js, and
+          Three.js. I'm a quick learner and collaborate closely with clients to
+          create efficient, scalable, and user-friendly solutions that solve
+          real-world problems. Let's work together to bring your ideas to life!
+        </div>
+      </div>
+    </motion.div>
   );
 };
 
-// const Feedbacks = () => {
-//   return (
-//     <div>Feedbacks</div>
-//   )
-// }
+{/* <motion.div variants={textVariant()}>
+<h2 className={`${styles.sectionHeadText} text-center `}>About</h2>
+
+<div className='flex w-full h-full ml-3 mt-12'>
+  <img
+    src={me}
+    alt={'me_pic'}  
+    className='w-[30%] h-[30%] object-contain rounded-3xl'
+    />
+  <div className="ml-10 text-[20px] max-w-3xl leading-[35px]">
+      I'm a skilled software developer with experience in TypeScript and
+      JavaScript, and expertise in frameworks like React, Node.js, and
+      Three.js. I'm a quick learner and collaborate closely with clients to
+      create efficient, scalable, and user-friendly solutions that solve
+      real-world problems. Let's work together to bring your ideas to life!
+  </div>
+</div>
+</motion.div> */}
 
 // export default Feedbacks
 
