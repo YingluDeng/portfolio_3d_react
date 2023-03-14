@@ -20,12 +20,12 @@
 }
 
 .bg-zigzag {
-  /* background-color: #e5e5f7; */
+  /* background-color: #2e2e9e; */
   opacity: 0.8;
-  background-image: linear-gradient(135deg, #fdfdfd 25%, transparent 25%),
-    linear-gradient(225deg, #fdfdfd 25%, transparent 25%),
-    linear-gradient(45deg, #fdfdfd 25%, transparent 25%),
-    linear-gradient(315deg, #fdfdfd 25%, #e5e5f7 25%);
+  background-image: linear-gradient(135deg, #fdfdfd 25%, transparent 0%),
+    linear-gradient(225deg, #fdfdfd 25%, transparent 0%),
+    linear-gradient(45deg, #fdfdfd 25%, transparent 0%),
+    linear-gradient(315deg, #fdfdfd 25%, #d88c52 0%);
   background-position: 10px 0, 10px 0, 0 0, 0 0;
   background-size: 20px 20px;
   background-repeat: repeat;
@@ -45,13 +45,13 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.violet-gradient {
-  background: #804dee;
-  background: linear-gradient(-90deg, #804dee 0%, rgba(60, 51, 80, 0) 100%);
+.brown-gradient {
+  background: #d88c52;
+  background: linear-gradient(-90deg, #d88c52 0%, rgba(60, 51, 80, 0) 100%);
   background: -webkit-linear-gradient(
     -90deg,
-    #804dee 0%,
-    rgba(60, 51, 80, 0) 100%
+    #d88c52 0%,
+    rgba(60, 51, 80, 0) 90%
   );
 }
 
@@ -67,8 +67,8 @@
 
 .green-pink-gradient {
   background: '#00cea8';
-  background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
-  background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+  background: linear-gradient(90.13deg, #fcbc44 1.9%, #f47baa 97.5%);
+  background: -webkit-linear-gradient(-90.13deg, #fcbc44 1.9%, #f47baa 97.5%);
 }
 
 .orange-text-gradient {

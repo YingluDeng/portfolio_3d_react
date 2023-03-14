@@ -68,11 +68,11 @@ const About = (
       </div>
     </div> */}
     {/* <div> */}
-      <div className='relative w-full h-[230px]'>
+      <div className='relative w-[30px] h-[30px]'>
         <img
-          src={image}
+          src={c_facebook}
           alt='source code'
-          className='w-full h-full object-cover rounded-2xl'
+          className='w-full h-full object-cover'
         />
       </div>
     {/* </div> */}

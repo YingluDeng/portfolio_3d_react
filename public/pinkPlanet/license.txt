@@ -1,0 +1,11 @@
+Model Information:
+* title:	PBR Wall Material in 2K (pink)
+* source:	https://sketchfab.com/3d-models/pbr-wall-material-in-2k-pink-8bffb0c7904c4cdba0172e53d546cd42
+* author:	johnnrodriguess (https://sketchfab.com/johnnrodriguess)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "PBR Wall Material in 2K (pink)" (https://sketchfab.com/3d-models/pbr-wall-material-in-2k-pink-8bffb0c7904c4cdba0172e53d546cd42) by johnnrodriguess (https://sketchfab.com/johnnrodriguess) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

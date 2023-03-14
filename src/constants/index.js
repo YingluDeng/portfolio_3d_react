@@ -39,13 +39,13 @@ import {
   } from "../assets";
   
   export const navLinks = [
+    // {
+    //   id: "hero",
+    //   title: "Home",
+    // },
     {
       id: "about",
       title: "About",
-    },
-    {
-      id: "edu",
-      title: "Education"
     },
     {
       id: "exp",
@@ -53,7 +53,7 @@ import {
     },
     {
       id: "work",
-      title: "Project",
+      title: "Projects",
     },
     {
       id: "contact",
