@@ -4,6 +4,7 @@ import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
+// import {BsFillMoonStarsFill} from 'react-icons/bs';
 
 
 const Navbar = () => {
@@ -52,6 +53,7 @@ const Navbar = () => {
             Cecilia Deng's &nbsp; 
             <span className='sm:block hidden font-serif'>Portfolio</span>
           </p>
+          {/* <BsFillMoonStarsFill /> */}
         </Link>
 
         <ul className='list-none hidden sm:flex flex-row gap-10'>
@@ -75,7 +77,7 @@ const Navbar = () => {
             className='w-[28px] h-[28px] object-contain'
             onClick={() => setToggle(!toggle)}
           />
-
+  
           <div
             className={`${
               !toggle ? "hidden" : "flex"

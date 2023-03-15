@@ -13,8 +13,7 @@ const About = (
   source_code_link,
 ) => {
   return (
-    <>
-    
+    <> 
     <motion.div variants={textVariant()}>
       <h2 className={`${styles.sectionHeadText} text-center `}>About</h2>
       <div className='flex w-full h-full ml-3 mt-12'>
@@ -29,31 +28,16 @@ const About = (
           Three.js. I'm a quick learner and collaborate closely with clients to
           create efficient, scalable, and user-friendly solutions that solve
           real-world problems. Let's work together to bring your ideas to life!
-        <img
+        {/* <img
           src={c_facebook}
           alt={'me_pic'}  
           className='w-[30%] h-[30%] object-contain rounded-3xl'
-        />
+        /> */}
         
         </div>
       </div>
     </motion.div>
 
-    {/* <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <div>
-        <img
-          src={c_facebook}
-          alt={'me_pic'}  
-          className='w-[30%] h-[30%] object-contain rounded-3xl'
-        />
-      </div>
-    </motion.div> */}
-
-    {/* <div className='mt-20 flex flex-wrap gap-7 ml-50'>
-      {abouts.map((project, index) => (
-        <ProjectCard key={`project-${index}`} index={index} {...project} />
-      ))}
-    </div> */}
 
     {/* <div className='absolute inset-0 flex justify-end m-1 card-img_hover'>
       <div
@@ -66,16 +50,17 @@ const About = (
           className='w-9 h-9 object-contain'
         />
       </div>
-    </div> */}
-    {/* <div> */}
-      <div className='relative w-[30px] h-[30px]'>
+
+
+      
+      {/* <div className='relative w-[30px] h-[30px]'>
         <img
           src={c_facebook}
           alt='source code'
           className='w-full h-full object-cover'
         />
-      </div>
-    {/* </div> */}
+      </div> */}
+
     
 
     </>

@@ -141,7 +141,7 @@ import {
       major: "Bachelor's degree, Data Science",
       icon: ucb_logo,
       iconBg: "#E6DEDD",
-      date: "Aug 2020 - June 2022",
+      date: "June 2022",
       points: [],
     },
     {
@@ -149,7 +149,7 @@ import {
       major: "Master's Engineering, Artificial Intelligence",
       icon: ucla_logo,
       iconBg: "#E6DEDD",
-      date: "Sep 2022 - Aug 2023",
+      date: "Excepted Aug 2023",
       // points: ["CS 269: Artificial Intelligence with Reinforcement Learning, ECE 232E: Large Scale Social and Complex Networks Design and Algorithms; ECE C247: Neural Networks and Deep Learning; ECE C243A: Neural Signal Processing; ECE 219: Large Scale Data Mining, Models and Algorithms; ENGR 213: Data and Business Analytics; ENGR 214: Management Communication; ENGR 215: Entrepreneurship for Engineers"],
       points: [],
     },

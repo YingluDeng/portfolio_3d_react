@@ -5,10 +5,49 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const Earth = () => {
-  const earth = useGLTF("./planet/scene.gltf");
+  const earth = useGLTF("./tokyo_house/scene.gltf");
 
   return (
-    <primitive object={earth.scene} scale={2.5} position-y={0} rotation-y={0} />
+    <mesh>
+      <hemisphereLight intensity={0.9} groundColor='black' />
+      {/* red light */}
+      <spotLight
+        position={[250, 100, 50]}
+        angle={0.12}
+        penumbra={1}
+        intensity={1}
+        castShadow
+        shadow-mapSize={1024}
+        color={0xecad9e}
+      />
+      <pointLight intensity={1} />
+
+      {/* green light  */}
+      <spotLight
+        position={[-160, -100, -600]}
+        angle={0.12}
+        penumbra={1}
+        intensity={1}
+        castShadow
+        shadow-mapSize={1024}
+        color={0xd6d587}
+        // 0xd6d587
+      />
+      <pointLight intensity={1} />
+
+      <primitive 
+        object={earth.scene} 
+        scale={0.009} 
+        position-y={0} 
+        rotation-y={0} 
+        // object={earth.scene}
+        // scale={isMobile ? 0.2 : 0.3}  //调模型大小
+        // position={isMobile ? [0, -3, -2.2] : [0, -3, 0.5]}  //position
+        // rotation={[0.06, 1.55, -0.05]}
+      />
+    </mesh>
+
+    
   );
 };
 
