@@ -73,7 +73,7 @@ const Contact = () => {
 
   return (
     <div
-      className={` xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
+      className={`xl: flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
@@ -86,7 +86,7 @@ const Contact = () => {
         <form
           ref={formRef}
           onSubmit={handleSubmit}
-          className='mt-6 flex flex-col gap-4'
+          className='mt-5 flex flex-col gap-4'
         >
           <label className='flex flex-col'>
             <span className='text-white font-mono mb-4'>Name</span>
@@ -96,7 +96,7 @@ const Contact = () => {
               value={form.name}
               onChange={handleChange}
               placeholder="Your name..."
-              className='bg-gradient-to-r from-[#eb636c] via-yelow-500 to-[#f79883] focus:bg-white py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-mono'
+              className='bg-gradient-to-r from-[#eb636c] via-yelow-500 to-[#f79883] focus:bg-white py-3 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-mono'
             />
           </label>
           <label className='flex flex-col'>
@@ -107,7 +107,7 @@ const Contact = () => {
               value={form.email}
               onChange={handleChange}
               placeholder="Your email..."
-              className='bg-gradient-to-r from-[#eb636c] via-yelow-500 to-[#f79883] focus:bg-white py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-mono'
+              className='bg-gradient-to-r from-[#eb636c] via-yelow-500 to-[#f79883] focus:bg-white py-3 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-mono'
             />
           </label>
           <label className='flex flex-col'>
@@ -118,13 +118,13 @@ const Contact = () => {
               value={form.message}
               onChange={handleChange}
               placeholder='Tell me about your thought...'
-              className='bg-gradient-to-r from-[#eb636c] via-yelow-500 to-[#f79883] focus:bg-white py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-mono'
+              className='bg-gradient-to-r from-[#eb636c] via-yelow-500 to-[#f79883] focus:bg-white py-3 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-mono'
             />
           </label>
 
           <button
             type='submit'
-            className='bg-gradient-to-r from-[#eb636c] via-yelow-500 to-[#f79883] hover:bg-red-500 py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
+            className='bg-gradient-to-r from-[#eb636c] via-yelow-500 to-[#f79883] hover:bg-red-500 py-3 px-6 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
           >
             {loading ? "Sending..." : "Send"}
           </button>

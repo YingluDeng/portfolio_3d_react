@@ -17,9 +17,9 @@ const App = () => {
           </svg> */}
           <About />
           <Education />
+          <Works />
           <Experience />
           {/* <Tech /> */}
-          <Works />
         </div>
 
         <div className="relative z-0">

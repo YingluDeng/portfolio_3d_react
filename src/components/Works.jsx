@@ -48,13 +48,13 @@ const ProjectCard = ({
           </div>
         </div>
 
-        <div className='mt-5'>
+        <div className='mt-2'>
           <h3 className='text-tertiary font-bold text-[24px]'>{name}</h3>
-          <p className='mt-2 text-secondary text-[14px]'>{description}</p>
+          <p className='text-secondary text-[14px]'>{description}</p>
         </div>
         
         {/* map the skills with each proj */}
-        <div className='mt-4 flex flex-wrap gap-2'>
+        <div className='mt-1 flex flex-wrap gap-2'>
           {tags.map((tag) => (
             <p
               key={`${name}-${tag.name}`}
@@ -77,7 +77,7 @@ const Works = () => {
       </motion.div>
 
       {/* loop for projects  */}
-      <div className='mt-20 flex flex-wrap gap-7 ml-50'>
+      <div className='mt-5 flex flex-wrap gap-7 ml-50'>
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}

@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
-
 const Hero = () => {
   return (
     // change background color from yellow to pink 
@@ -27,12 +26,16 @@ const Hero = () => {
             Full Stack Software Engineer; <br className='sm:block hidden' />
             Content Creator; <br className='sm:block hidden' />
             Photographer 
-            
           </p>
         </div>
       </div>
 
-      <ComputersCanvas />
+      {/* <motion.div
+        variants={slideIn("right", "tween", 0.2, 1)}
+        className='xl:flex-1 xl:h-auto md:h-[600px] h-[350px]'
+      > */}
+        <ComputersCanvas />
+      {/* </motion.div> */}
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>

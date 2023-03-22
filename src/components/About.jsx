@@ -16,13 +16,13 @@ const About = (
     <> 
     <motion.div variants={textVariant()}>
       <h2 className={`${styles.sectionHeadText} text-center `}>About</h2>
-      <div className='flex w-full h-full ml-3 mt-12'>
+      <div className='flex w-full h-full ml-3 mt-5'>
         <img
           src={me}
           alt={'me_pic'}  
-          className='w-[30%] h-[30%] object-contain rounded-3xl'
+          className='w-[35%] h-[35%] object-contain rounded-3xl'
         />
-        <div className="ml-20 text-[25px] mr-10 max-w-3xl leading-[45px]">
+        <div className="ml-20 text-[18px] mr-10 max-w-3xl leading-[30px]">
           I'm a skilled software developer with experience in TypeScript and
           JavaScript, and expertise in frameworks like React, Node.js, and
           Three.js. I'm a quick learner and collaborate closely with clients to

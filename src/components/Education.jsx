@@ -17,10 +17,9 @@ const EducationCard = ({ education }) => {
     <VerticalTimelineElement
       contentStyle={{
         background: "#de9b64",
-
       }}
       
-      contentArrowStyle={{ borderRight: "16px solid #d98d51" }}
+      contentArrowStyle={{ borderRight: "13px solid #de9b64" }}
       date={education.date}
       iconStyle={{ background: education.iconBg }}
       icon={
@@ -41,9 +40,16 @@ const EducationCard = ({ education }) => {
         >
           {education.major}
         </p>
+
+        <p
+          className='text-white text-[16px] font-semibold'
+          style={{ margin: 0 }}
+        >
+          {education.details}
+        </p>
       </div>
 
-      <ul className='mt-2 list-disc ml-3 space-y-2'>
+      <ul className='mt-1 list-disc ml-3 space-y-2'>
         {education.points.map((point, index) => (
           <li
             key={`education-point-${index}`}
@@ -69,7 +75,7 @@ const Education = () => {
         </h2>
       </motion.div>
 
-      <div className='mt-20 flex flex-col '>
+      <div className='mt-2 flex flex-col'>
         <VerticalTimeline>
           {educations.map((education, index) => (
             <EducationCard
