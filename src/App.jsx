@@ -1,10 +1,9 @@
-import { HashRouter } from "react-router-dom";
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from './components';
-import Education from "./components/Education";
+import { BrowserRouter } from "react-router-dom";
+import { About, Contact, Education, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from './components';
 
 const App = () => {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <div className="relative z-0">
         
         {/* bg-gradient-to-r from-yellow-400 via-pink-250 to-pink-400 */}
@@ -29,8 +28,8 @@ const App = () => {
           <StarsCanvas />
         </div>
       </div>
-    </HashRouter>
-  )
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
