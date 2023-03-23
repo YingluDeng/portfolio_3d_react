@@ -20,6 +20,7 @@ const Contact = () => {
   });
 
   const [loading, setLoading] = useState(false);
+  const [toggle, setToggle] = useState(false);
 
   const handleChange = (e) => {
     // const { target } = e;
@@ -133,10 +134,11 @@ const Contact = () => {
 
       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
-        className='xl:flex-1 xl:h-auto md:h-[600px] h-[350px]'
+        className="xl:flex-1 xl:h-auto md:h-[600px] h-[350px]"
       >
         <EarthCanvas />
       </motion.div>
+      
     </div>
   );
 };

@@ -46,10 +46,12 @@ import c_gmail from "./contact/c_gmail.svg";
 import proj_bart from "./project_pic/proj_bart.png";
 import proj_gitlet from "./project_pic/proj_gitlet.png";
 import proj_maze from "./project_pic/proj_maze.png";
+import proj_calls from "./project_pic/proj_calls.png";
 
 export {
   proj_bart,
   proj_gitlet,
+  proj_calls,
   proj_maze,
   c_github,
   c_facebook,

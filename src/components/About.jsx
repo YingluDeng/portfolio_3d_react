@@ -18,14 +18,14 @@ const About = (
   return (
     <> 
     <motion.div variants={textVariant()}>
-      <h2 className={`${styles.sectionHeadText} text-center `}>About</h2>
+      <h2 className={`${styles.sectionHeadText} text-center`}>About</h2>
       <div className='flex w-full h-full ml-3 mt-5'>
         <img
           src={me}
           alt={'me_pic'}  
           className='w-[35%] h-[35%] object-contain rounded-3xl'
         />
-        <div className="ml-10 text-[18px] mr-5 max-w-3xl leading-[21px]">
+        <div className="ml-10 text-[18px] text-[#492519] mr-5 max-w-3xl leading-[21px]">
           <p>Cecilia is an <b>Engineering Master</b> student from <b>UCLA</b> 👩‍🎓, where she research 
           about Artificial Intelligence, Machine Learning and Software Engineering. 
           And her <b>Bachelor degree</b> was in <b>Data Science</b> at <b>UC Berkeley</b>, where she 
@@ -42,8 +42,10 @@ const About = (
           <br />
           <p>Alongside her academic and professional pursuits, Cecilia indulges in 
           her hobbies of <b>photography 📸️, playing the violin 🎻</b>, and <b>watching good 
-          quality movies 🎬</b>. She loves to <b>travel</b> and has traveled <b>over 100 cities </b> 
-          in China, capturing her life moments in photos and videos, and keeping a journal.</p>
+          quality movies 🎬</b>. She is also a <b>fitness fanatic</b> and enjoys working out 
+          regularly to stay healthy and fit. Additionally, she loves to <b>travel</b> and has 
+          traveled <b>over 100 cities </b> in China, capturing her life moments in photos 
+          and videos, and keeping a journal.</p>
         </div>
       </div>
     </motion.div>
@@ -93,7 +95,6 @@ const About = (
         />
       </div>
     </div>
-
     </>
   );
 };
