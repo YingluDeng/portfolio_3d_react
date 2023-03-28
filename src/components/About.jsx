@@ -26,11 +26,11 @@ const About = (
           className='w-[35%] h-[35%] object-contain rounded-3xl'
         />
         <div className="ml-12 text-[18px] text-[#492519] mr-12 max-w-3xl leading-[24px]">
-          <p>Cecilia is an <b>Engineering Master</b> student from <b>UCLA</b> 👩‍🎓, where she research 
-          about Artificial Intelligence, Machine Learning and Software Engineering. 
-          And her <b>Bachelor degree</b> was in <b>Data Science</b> at <b>UC Berkeley</b>, where she 
-          enjoyed creating and programming web application and combined machine 
-          learning algorithm into the web application. She has great interests 
+          <p>Cecilia is an <b>Engineering Master's</b> student from <b>UCLA</b> 👩‍🎓, where she researches 
+           Artificial Intelligence, Machine Learning and Software Engineering. 
+          And her <b>Bachelor's degree</b> was in <b>Data Science</b> at <b>UC Berkeley</b>, where she 
+          enjoyed creating and programming web applications and combining machine 
+          learning algorithms into the web application. She has great interests 
           in Software Engineering and Artificial Intelligence. In her free time, 
           she enjoys exploring new technologies like <b>Android Mobile APP 📱</b> and <b>React</b>, 
           continuously expanding her knowledge and skillset.</p>
@@ -44,7 +44,7 @@ const About = (
           her hobbies of <b>photography 📸️, playing the violin 🎻</b>, and <b>watching good 
           quality movies 🎬</b>. She is also a <b>fitness fanatic</b> and enjoys working out 
           regularly to stay healthy and fit. Additionally, she loves to <b>travel</b> and has 
-          traveled <b>over 100 cities </b> in China, capturing her life moments in photos 
+          traveled <b>over to 100 cities </b> in China, capturing her life moments in photos 
           and videos, and keeping a journal.</p>
         </div>
       </div>
