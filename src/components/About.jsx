@@ -25,7 +25,7 @@ const About = (
           alt={'me_pic'}  
           className='w-[35%] h-[35%] object-contain rounded-3xl'
         />
-        <div className="ml-10 text-[18px] text-[#492519] mr-5 max-w-3xl leading-[21px]">
+        <div className="ml-12 text-[18px] text-[#492519] mr-12 max-w-3xl leading-[24px]">
           <p>Cecilia is an <b>Engineering Master</b> student from <b>UCLA</b> 👩‍🎓, where she research 
           about Artificial Intelligence, Machine Learning and Software Engineering. 
           And her <b>Bachelor degree</b> was in <b>Data Science</b> at <b>UC Berkeley</b>, where she 
@@ -50,7 +50,9 @@ const About = (
       </div>
     </motion.div>
 
-    <div className='flex w-full h-[240px]'>
+    
+
+    <div className='ml-10 flex w-full h-[240px]'>
       <div
         onClick={() => window.open("https://www.linkedin.com/in/yinglu-cecilia-deng/", "_blank")}
         className='cursor-pointer'

@@ -306,31 +306,31 @@ import {
       image: proj_maze,
       source_code_link: "https://github.com/YingluDeng/Maze-Game-Project",
     },
-    {
-      name: "Scheduling Calls with Predictive Modeling",
-      description:
-        "This project is building a predictive platform that helps schedule the best time to call a prospective lead and suggests talking points. The solution constist of two goals: Use predictive modeling to predict the best time to call a customer based on the customer's activity data. Use NLP to generate a list of potential talking points for a sales representative based on the customer's recent engagements with the company. Knowing when to call and what to say will significantly increase efficiency and churn rate, which will ultimately lead to more sales and opportunities for the business.",
-      tags: [
-        {
-          name: "Python",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "NLP",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Machine Learning",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "Data Science",
-          color: "purple-text-gradient",
-        },
-      ],
-      image: proj_calls,
-      source_code_link: "https://github.com/YingluDeng/6SenseCallPrediction",
-    },
+    // {
+    //   name: "Scheduling Calls with Predictive Modeling",
+    //   description:
+    //     "This project is building a predictive platform that helps schedule the best time to call a prospective lead and suggests talking points. The solution constist of two goals: Use predictive modeling to predict the best time to call a customer based on the customer's activity data. Use NLP to generate a list of potential talking points for a sales representative based on the customer's recent engagements with the company. Knowing when to call and what to say will significantly increase efficiency and churn rate, which will ultimately lead to more sales and opportunities for the business.",
+    //   tags: [
+    //     {
+    //       name: "Python",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "NLP",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "Machine Learning",
+    //       color: "pink-text-gradient",
+    //     },
+    //     {
+    //       name: "Data Science",
+    //       color: "purple-text-gradient",
+    //     },
+    //   ],
+    //   image: proj_calls,
+    //   source_code_link: "https://github.com/YingluDeng/6SenseCallPrediction",
+    // },
   ];
 
   const abouts = [
