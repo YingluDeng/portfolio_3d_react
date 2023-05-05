@@ -75,7 +75,7 @@ const Education = () => {
         </h2>
       </motion.div>
 
-      <div className='mt-2 flex flex-col'>
+      <div className='mt-10 flex flex-col'>
         <VerticalTimeline>
           {educations.map((education, index) => (
             <EducationCard

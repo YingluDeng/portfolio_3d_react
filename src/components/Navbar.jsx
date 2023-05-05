@@ -49,9 +49,9 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <p className='text-white font-serif text-[18px] font-bold cursor-pointer flex'>
+          <p className='text-white font-serif text-[18px] font-bold cursor-pointer flex hover:text-secondary'>
             Cecilia Deng's &nbsp; 
-            <span className='sm:block hidden font-serif'>Portfolio</span>
+            <span className='sm:block hidden font-serif '>Portfolio</span>
           </p>
           {/* <BsFillMoonStarsFill /> */}
         </Link>

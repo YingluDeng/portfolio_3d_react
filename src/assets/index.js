@@ -8,6 +8,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import me from "./me.png";
+import life_me from "./life_me.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -96,4 +97,5 @@ export {
   jobit,
   tripguide,
   me,
+  life_me
 };
