@@ -23,7 +23,7 @@ const About = (
         <img
           src={me}
           alt={'me_pic'}  
-          className='w-[35%] h-[35%] object-contain rounded-3xl'
+          className='shadow-2xl shadow-orange-500/50 w-[30%] h-[30%] object-contain rounded-3xl hover:-translate-y-1 hover:scale-110 duration-300'
         />
         <div className="ml-12 text-[18px] text-[#492519] mr-12 max-w-3xl leading-[24px]">
           <p>Cecilia is an <b>Engineering Master's</b> student from <b>UCLA</b> 👩‍🎓, where she researches 
@@ -52,48 +52,48 @@ const About = (
 
     
 
-    <div className='ml-10 flex w-full h-[240px]'>
+    <div className='ml-1 flex w-full h-[240px]'>
       <div
         onClick={() => window.open("https://www.linkedin.com/in/yinglu-cecilia-deng/", "_blank")}
-        className='cursor-pointer'
+        className='cursor-pointer hover:-translate-y-1 hover:scale-110 duration-300'
       >
         <img
           src={c_linkedin}
           alt={'fb'}  
-          className='w-[40%] h-[40%] object-contain rounded-1xl mt-8'
+          className='w-[50%] h-[50%] object-contain rounded-1xl mt-1'
         />
       </div>
 
       <div
         onClick={() => window.open("https://github.com/YingluDeng", "_blank")}
-        className='cursor-pointer'
+        className='cursor-pointer hover:-translate-y-1 hover:scale-110 duration-300'
       >
         <img
           src={c_github}
           alt={'fb'}  
-          className='w-[40%] h-[40%] object-contain rounded-1xl mt-8'
+          className='w-[50%] h-[50%] object-contain rounded-1xl mt-1'
         />
       </div>
 
       <div
         onClick={() => window.open("https://www.instagram.com/cec.land/", "_blank")}
-        className='cursor-pointer'
+        className='cursor-pointer hover:-translate-y-1 hover:scale-110 duration-300'
       >
         <img
           src={c_ins}
           alt={'fb'}  
-          className='w-[40%] h-[40%] object-contain rounded-1xl mt-8'
+          className='w-[50%] h-[50%] object-contain rounded-1xl mt-1'
         />
       </div>
 
       <div
         onClick={() => window.open("https://www.facebook.com/vicky.deng.1675/", "_blank")}
-        className='cursor-pointer'
+        className='cursor-pointer hover:-translate-y-1 hover:scale-110 duration-300'
       >
         <img
           src={c_facebook}
           alt={'fb'}  
-          className='w-[40%] h-[40%] object-contain rounded-1xl mt-8'
+          className='w-[50%] h-[50%] object-contain rounded-1xl mt-1'
         />
       </div>
     </div>

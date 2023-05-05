@@ -37,6 +37,8 @@ import {
     proj_gitlet,
     proj_maze,
     proj_calls,
+    proj_gpt,
+    proj_portfolio
   } from "../assets";
   
   export const navLinks = [
@@ -228,6 +230,60 @@ import {
   
   const projects = [
     {
+      name: "ChatGPT Clone Web App",
+      description:
+        "The ChatGPT Clone is a web application that boasts a modern, responsive design and an advanced AI chatbot powered by OpenAI API and developed using TypeScript, React, and Tailwind CSS. It leverages Firebase V9 to enable secure, real-time chat functionality through API endpoints within the Next.js framework. To optimize data fetching, useSWR was implemented, while NextAuth for Firebase Google Authentication was used to ensure secure user access. Finally, the app was deployed on Vercel, providing high performance and scalability for its users.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Typescript",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "Javascript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Next.js",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "TailwindCSS",
+          color: "purple-text-gradient",
+        },
+      ],
+      image: proj_gpt,
+      source_code_link: "https://github.com/YingluDeng/chatgpt_webapp_v1.0",
+    },
+    {
+      name: "Personal Portfolio",
+      description:
+          "My personal portfolio is expertly crafted using cutting-edge technologies such as React, Three.js, and TailwindCSS.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Javascript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Three.js",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "TailwindCSS",
+          color: "purple-text-gradient",
+        },
+      ],
+      image: proj_portfolio,
+      source_code_link: "https://github.com/YingluDeng/portfolio_3d_react",
+    },
+    {
       name: "Bart MGS",
       description:
         "The primary aim of this project is to develop a system that can accurately transform real-world geographic coordinates (latitude and longitude) into the (x, y) coordinates of BART's rail track schematic diagram. This will enable us to precisely pinpoint the location of BART trains on the map and track their movements in real-time. By achieving this goal, we hope to enhance the efficiency and safety of BART operations, as well as provide more accurate and reliable information to engineers about physical infrastructure and equipment such as stations, signals and locomotives.",
@@ -251,6 +307,31 @@ import {
       ],
       image: proj_bart,
       source_code_link: "https://github.com/YingluDeng/Bart_MGS",
+    },
+    {
+      name: "Scheduling Calls with Predictive Modeling",
+      description:
+        "This project is building a predictive platform that helps schedule the best time to call a prospective lead and suggests talking points. The solution constist of two goals: Use predictive modeling to predict the best time to call a customer based on the customer's activity data. Use NLP to generate a list of potential talking points for a sales representative based on the customer's recent engagements with the company.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "NLP",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Machine Learning",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Data Science",
+          color: "purple-text-gradient",
+        },
+      ],
+      image: proj_calls,
+      source_code_link: "https://github.com/YingluDeng/6SenseCallPrediction",
     },
     {
       name: "Version Control Gitlet",
@@ -306,31 +387,6 @@ import {
       image: proj_maze,
       source_code_link: "https://github.com/YingluDeng/Maze-Game-Project",
     },
-    // {
-    //   name: "Scheduling Calls with Predictive Modeling",
-    //   description:
-    //     "This project is building a predictive platform that helps schedule the best time to call a prospective lead and suggests talking points. The solution constist of two goals: Use predictive modeling to predict the best time to call a customer based on the customer's activity data. Use NLP to generate a list of potential talking points for a sales representative based on the customer's recent engagements with the company. Knowing when to call and what to say will significantly increase efficiency and churn rate, which will ultimately lead to more sales and opportunities for the business.",
-    //   tags: [
-    //     {
-    //       name: "Python",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "NLP",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "Machine Learning",
-    //       color: "pink-text-gradient",
-    //     },
-    //     {
-    //       name: "Data Science",
-    //       color: "purple-text-gradient",
-    //     },
-    //   ],
-    //   image: proj_calls,
-    //   source_code_link: "https://github.com/YingluDeng/6SenseCallPrediction",
-    // },
   ];
 
   const abouts = [
