@@ -1,7 +1,5 @@
 # Personal Portfolio
 
-aaaa
-
 ## TechStack
 
 ### Languages
