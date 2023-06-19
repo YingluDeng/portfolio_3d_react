@@ -54,6 +54,7 @@ const Earth = () => {
 const EarthCanvas = () => {
   return (
     <Canvas
+      className="hover: cursor-pointer"
       shadows
       frameloop='demand'
       dpr={[1, 2]}

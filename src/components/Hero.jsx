@@ -34,7 +34,10 @@ const Hero = () => {
         variants={slideIn("right", "tween", 0.2, 1)}
         className='xl:flex-1 xl:h-auto md:h-[600px] h-[350px]'
       > */}
-        <ComputersCanvas />
+      {/* <div classname="hover: cursor-pointer"> */}
+      <ComputersCanvas />
+      {/* </div> */}
+        
       {/* </motion.div> */}
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
