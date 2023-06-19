@@ -15,18 +15,11 @@ import {
     git,
     figma,
     docker,
-    meta,
     bart,
     ucbLaw,
     ucb_logo,
     ucla_logo,
     six_sense,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
     c_facebook,
     c_github,
@@ -38,7 +31,8 @@ import {
     proj_maze,
     proj_calls,
     proj_gpt,
-    proj_portfolio
+    proj_portfolio,
+    proj_jobMobile
   } from "../assets";
   
   export const navLinks = [
@@ -200,35 +194,33 @@ import {
       ],
     },
   ];
-  
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
-  
+ 
   const projects = [
+    {
+      name: "Job Seeking Mobile App",
+      description:
+        "The Job Seeking Mobile App is a React Native project developed with JavaScript. It provides a comprehensive solution for job seekers and seamlessly collects open job listings from popular platforms like LinkedIn, Glassdoor, and official company websites,  users can access a wide range of job listings conveniently. By integrating a custom API from the Rapid Api community, it retrieves data from external sources, ensuring a robust and efficient user experience. This combination of technologies ensures that the app delivers a robust and user-friendly experience, empowering job seekers in their search for employment opportunities.",
+      tags: [
+        {
+          name: "React Native",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Javascript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CSS3",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "Expo",
+          color: "purple-text-gradient",
+        },
+      ],
+      image: proj_jobMobile,
+      source_code_link: "https://github.com/YingluDeng/JobSeekingApp",
+    },
     {
       name: "ChatGPT Clone Web App",
       description:
@@ -257,31 +249,6 @@ import {
       ],
       image: proj_gpt,
       source_code_link: "https://github.com/YingluDeng/chatgpt_webapp_v1.0",
-    },
-    {
-      name: "Personal Portfolio",
-      description:
-          "My personal portfolio is expertly crafted using cutting-edge technologies such as React, Three.js, and TailwindCSS.",
-      tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Javascript",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Three.js",
-          color: "orange-text-gradient",
-        },
-        {
-          name: "TailwindCSS",
-          color: "purple-text-gradient",
-        },
-      ],
-      image: proj_portfolio,
-      source_code_link: "https://github.com/YingluDeng/portfolio_3d_react",
     },
     {
       name: "Bart MGS",
@@ -412,4 +379,4 @@ import {
     },
   ];
   
-  export { abouts, services, technologies, educations, experiences, testimonials, projects };
+  export { abouts, services, technologies, educations, experiences, projects };
