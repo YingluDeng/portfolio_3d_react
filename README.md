@@ -1,5 +1,7 @@
 # Personal Portfolio
 
+### <a href="https://ceciliadeng.netlify.app/" target="_blank">LIVE DEMO 🔗</a>
+
 ## TechStack
 
 ### Languages
@@ -27,8 +29,4 @@
 
 GIF created with **Loom**
 
-## Link
 
-Please access the link using a computer.
-
-https://ceciliadeng.netlify.app/
