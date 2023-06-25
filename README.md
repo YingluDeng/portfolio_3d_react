@@ -1,6 +1,7 @@
 # Personal Portfolio
 
 ### <a href="https://ceciliadeng.netlify.app/" target="_blank">LIVE DEMO 🔗</a>
+<br/>
 
 ## TechStack
 
@@ -20,6 +21,8 @@
 ### Hosting/SaaS
 
 ![netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
+
+<br/>
 
 ## Video Demo
 
