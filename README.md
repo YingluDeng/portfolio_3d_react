@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-### <a href="https://ceciliadeng.netlify.app/" target="_blank">LIVE SITE 🔗</a>
+### <a href="https://ceciliadeng.netlify.app/" target="_blank">LIVE PAGE 🔗</a>
 <br/>
 
 ## TechStack
